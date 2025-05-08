@@ -1,0 +1,11 @@
+import java.util.*;
+public class loop {
+    public static void main(String[] args) {                               
+        int c = 5;
+        for (int i = 20; i <= 30; i++) {                                                                 
+            if (i % 3 == 0)
+                c = c + 2;
+        }
+        System.out.println(c + 3);
+    }
+}
