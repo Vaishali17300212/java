@@ -1,0 +1,16 @@
+import java.util.*;
+public class vowelremove {
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+        System.out.println("enter the name :");
+        String a=sc.nextLine();
+        String a1 = " ";
+        for(char ch :a.toCharArray()){
+            if(ch=='A' || ch=='E' || ch=='I' || ch=='O' || ch=='U' )
+            continue;
+            else
+            a1 =a1+ch;
+        } 
+        System.out.println("The output is ="+a1);
+    }
+}
