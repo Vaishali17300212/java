@@ -1,0 +1,13 @@
+import java.util.*;
+public class loopbreak {
+    public static void main(String[] args) {
+        int c = 15;
+        for(int i = 15 ; i <= 70 ; i++){                                  
+          if(i % 19 == 0)                                                                             
+            break;
+            else
+             c = c + i;
+        }
+        System.out.println(c);       
+    }
+}
