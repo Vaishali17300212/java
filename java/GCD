@@ -1,0 +1,17 @@
+import java.util.*;
+public class gcd {
+    public static void main(String[] args) {
+        Scanner q=new Scanner(System.in);
+        System.out.println("enter the num 1 : ");
+        int a=q.nextInt();                                                                        
+        System.out.println("enter the num 2 :  ");
+        int b=q.nextInt();
+        int temp;
+        while(b!=0){
+            temp = b;
+            b = a%b;
+            a=temp;
+        }
+        System.out.println("the GCD is : " +a);
+    }
+}
